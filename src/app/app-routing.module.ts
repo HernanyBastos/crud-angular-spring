@@ -8,7 +8,7 @@ const routes: Routes = [
     redirectTo: 'courses',
   },
   {
-    path: 'items',
+    path: 'courses',
     loadChildren: () => import ('./courses/courses.module').then(m => m.CoursesModule)
   }
 ];
